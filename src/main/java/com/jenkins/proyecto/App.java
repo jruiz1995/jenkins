@@ -15,7 +15,7 @@ public class App
         int resultado;
         a = 0;
         b = 1;
-        
+        System.out.println("Realizando Suma");
         resultado = a + b;
         System.out.println("El resultado de la suma es: " + resultado);
         
