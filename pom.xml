@@ -21,4 +21,32 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+   <profiles>
+    <profile>
+      <id>github</id>
+      <repositories>
+        <repository>
+          <id>central</id>
+          <url>https://repo1.maven.org/maven2</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+        <repository>
+          <id>github</id>
+          <name>GitHub Jruiz1995 Apache Maven Packages</name>
+          <url>https://github.com/jruiz1995/jenkins</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
+
+  <servers>
+    <server>
+      <id>github</id>
+      <username>jruiz1995</username>
+      <password>WnK5CKCTAS</password>
+    </server>
+  </servers>
+  
 </project>
