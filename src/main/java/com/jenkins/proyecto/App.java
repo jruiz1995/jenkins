@@ -10,7 +10,14 @@ public class App
     {
         System.out.println( "Hola!" );
         System.out.println("Soy una prueba!");
-        dfssdf
+        
+        int a,b;
+        int resultado;
+        a = 0;
+        b = 1;
+        
+        resultado = a + b;
+        System.out.println("El resultado de la suma es: " + resultado);
         
     }
 }
